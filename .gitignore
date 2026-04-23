@@ -5,5 +5,7 @@ __pycache__/
 *.pth
 *.onnx
 *.tflite
+*.json
+*.keras
 mini_plant_set/
 test_field/
