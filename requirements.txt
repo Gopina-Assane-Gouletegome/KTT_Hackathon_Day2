@@ -1,7 +1,16 @@
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
+ml_dtypes==0.4.0
 onnxruntime==1.18.0
 Pillow==10.3.0
 numpy==1.26.4
 pydantic==2.7.1
 python-multipart==0.0.9
+tensorflow>=2.14,<2.17
+tf2onnx>=1.16
+scikit-learn>=1.3
+opencv-python-headless>=4.8
+tensorflow-datasets>=4.9
+importlib_resources
+etils
+onnxruntime-extensions
