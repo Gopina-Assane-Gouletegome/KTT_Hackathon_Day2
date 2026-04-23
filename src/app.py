@@ -41,8 +41,6 @@ SESSION     = ort.InferenceSession(str(MODEL_PATH), providers=["CPUExecutionProv
 INPUT_NAME  = SESSION.get_inputs()[0].name
 OUTPUT_NAME = SESSION.get_outputs()[0].name
 
-print(f"✅  Model loaded from {MODEL_PATH}")
-print(f"    Classes: {CLASSES}")
 
 # ── FastAPI app ───────────────────────────────────────────────────────────────
 app = FastAPI(
