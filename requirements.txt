@@ -14,3 +14,4 @@ tensorflow-datasets>=4.9
 importlib_resources
 etils
 onnxruntime-extensions
+gradio
