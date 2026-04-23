@@ -363,9 +363,7 @@ def export_onnx_int8(onnx_fp32_path=MODEL_OUT, out_path="model_int8.onnx"):
         model_input=onnx_fp32_path,
         model_output=out_path,
         calibration_data_reader=_CalReader(),
-        quant_type=QuantType.QInt8,
-        per_channel=False,
-        reduce_range=False,
+        weight_type=QuantType.QInt8,
     )
     size_mb = os.path.getsize(out_path) / 1e6
     print(f"✅  ONNX INT8 saved → {out_path}  ({size_mb:.2f} MB)")

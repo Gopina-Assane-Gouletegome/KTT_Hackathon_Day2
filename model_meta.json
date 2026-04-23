@@ -1,0 +1,12 @@
+{
+  "classes": [
+    "healthy",
+    "maize_rust",
+    "maize_blight",
+    "cassava_mosaic",
+    "bean_spot"
+  ],
+  "img_size": 224,
+  "macro_f1": 0.9933,
+  "field_f1": 0.9826
+}
