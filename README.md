@@ -1,3 +1,9 @@
+---
+title: crop_disease_classifier
+app_file: ./src/demo.py
+sdk: gradio
+sdk_version: 6.13.0
+---
 # T2.1 · Compressed Crop Disease Classifier
 
 > AIMS KTT Hackathon · Tier 2 · AgriTech · Edge-AI for Offline Crop Diagnostics
